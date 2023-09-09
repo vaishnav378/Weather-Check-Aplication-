@@ -1,0 +1,17 @@
+1) for add the new city 
+    python file_name.py add Location 
+
+2)for check the weather of particular Location
+    python file_name.py check Location
+
+3)for remove the particular Location
+    python file_name.py remove Location
+
+4)for to refresh the particular Location
+    python file_name.py refresh Location   
+     
+5)for to List of a Location
+    python file_name.py list
+
+6)for update the particular Location
+    python file_name.py update Location
