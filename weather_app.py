@@ -24,7 +24,7 @@ class WeatherApp:
                 file.write(location + "\n")
 
     def get_weather(self, location):
-        base_url = " https://www.weatherapi.com/"
+        base_url = "https://api.weatherapi.com/v1/current.json"
         params = {
             "key": self.api_key,
             "q": location,
@@ -89,7 +89,7 @@ def main():
     parser.add_argument("location", nargs="*", help="Location (city name or coordinates)")
     args = parser.parse_args()
 
-    api_key = "44c078cb5472449885562029230509"  # Replace with your API key
+    api_key = "368d1f626a9347b8a40141900230909"  # Replace with your API key
     weather_app = WeatherApp(api_key)
 
     if args.action == "check":
